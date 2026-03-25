@@ -1,0 +1,9 @@
+<resources>
+    <color name="matcha">#A8D5BA</color>
+    <color name="matcha_dark">#6FBF8F</color>
+    <color name="matcha_moredark">#658C5E</color>
+    <color name="strawberry">#FF8FA3</color>
+    <color name="strawberry_soft">#FFC2D1</color>
+    <color name="cream">#FFF8F0</color>
+    <color name="text_dark">#3A3A3A</color>
+</resources>

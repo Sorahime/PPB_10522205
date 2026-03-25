@@ -1,0 +1,28 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.sofia.campusinfo.ui.home.HomeFragment">
+
+        <action
+            android:id="@+id/action_home_to_detail"
+            app:destination="@id/detailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.sofia.campusinfo.ui.schedule.ScheduleFragment"
+        android:label="Schedule" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.sofia.campusinfo.ui.profile.ProfileFragment"
+        android:label="Profile" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.sofia.campusinfo.ui.detail.AnnouncementDetailFragment"/>
+
+</navigation>
